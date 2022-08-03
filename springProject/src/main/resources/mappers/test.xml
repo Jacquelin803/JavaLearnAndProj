@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.imooc.reader.mapper.TestMapper">
+    <insert id="insertSample">   <!--mapper method  不要跟Mybatis-plus的BaseMapper里的crud函数冲突-->
+        insert into test(content) values('测试内容')
+    </insert>
+</mapper>
