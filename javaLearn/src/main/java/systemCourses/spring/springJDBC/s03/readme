@@ -1,0 +1,2 @@
+注解配置声明式事务
+configuration-file : applicationContext-springJdbc03.xml
